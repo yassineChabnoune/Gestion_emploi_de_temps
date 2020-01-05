@@ -37620,9 +37620,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("nav", { staticClass: "navbar navbar-expand-md navbar-light " }, [
-      _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
-        _vm._v("Home")
-      ]),
+      _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }),
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
@@ -37674,7 +37672,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("li", { staticClass: "nav-item active" }, [
       _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-        _vm._v("Link1 "),
         _c("span", { staticClass: "sr-only" }, [_vm._v("(current)")])
       ])
     ])
